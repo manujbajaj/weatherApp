@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container{
+    padding: 2.5rem;
+    border: 1px solid white;
+    border-radius: 1rem;
+    background: #22C1C3;
+background: linear-gradient(0deg, rgba(34, 193, 195, 1) 0%, rgba(253, 187, 45, 1) 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    min-width: 350px;
+}
+
+.search{
+    width: 100%;
+    display: flex;
+    gap: 1rem;
+    justify-content: space-between;
+}
+
+
+
+.imageContainer{
+    height: 30px;
+    width: 30px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 50%;
+    padding: 2px;
+}
+
+#image{
+    max-width: 80%;
+    max-height: 80%;
+    object-fit: contain;
+}
+
+.search input{
+    width: 16rem;
+    padding: 8px;
+    border-radius: 15px;
+    outline: none;
+    border: none;
+}
+.image{
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    max-width: 8rem;
+    max-height: 8rem;
+    overflow: hidden;
+}
+
+#sun{
+    max-width: 100%;
+
+    object-fit: contain;
+}
+
+.temperature{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.degree{
+    font-size: xxx-large;
+    font-weight: bold;
+    color: whitesmoke;
+}
+.city{
+    color: whitesmoke;
+
+}
+
+.others{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+
+}
+.humidity{
+    display: flex;
+    justify-content: center;
+}
+
+.windSpeed{
+    display: flex;
+    justify-content: center;
+}
+
+.humidityImage{
+    max-height: 40px;
+    max-width: 40px;
+    overflow: hidden;
+}
+
+.humidityImage img{
+    object-fit: contain;
+    max-height: 100%;
+}
